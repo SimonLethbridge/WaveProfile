@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215E27411D294EA8002EC537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E27401D294EA8002EC537 /* AppDelegate.swift */; };
+		215E27431D294EA8002EC537 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E27421D294EA8002EC537 /* GameViewController.swift */; };
+		215E27451D294EA8002EC537 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 215E27441D294EA8002EC537 /* Shaders.metal */; };
+		215E27471D294EA9002EC537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215E27461D294EA9002EC537 /* Assets.xcassets */; };
+		215E274A1D294EA9002EC537 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215E27481D294EA9002EC537 /* MainMenu.xib */; };
+		215E27551D294EA9002EC537 /* WaveProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E27541D294EA9002EC537 /* WaveProfileTests.swift */; };
+		215E27601D294EA9002EC537 /* WaveProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E275F1D294EA9002EC537 /* WaveProfileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215E27511D294EA9002EC537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215E27351D294EA8002EC537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215E273C1D294EA8002EC537;
+			remoteInfo = WaveProfile;
+		};
+		215E275C1D294EA9002EC537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215E27351D294EA8002EC537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215E273C1D294EA8002EC537;
+			remoteInfo = WaveProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		215E273D1D294EA8002EC537 /* WaveProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		215E27401D294EA8002EC537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215E27421D294EA8002EC537 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		215E27441D294EA8002EC537 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		215E27461D294EA9002EC537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215E27491D294EA9002EC537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		215E274B1D294EA9002EC537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215E27501D294EA9002EC537 /* WaveProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215E27541D294EA9002EC537 /* WaveProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveProfileTests.swift; sourceTree = "<group>"; };
+		215E27561D294EA9002EC537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215E275B1D294EA9002EC537 /* WaveProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215E275F1D294EA9002EC537 /* WaveProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveProfileUITests.swift; sourceTree = "<group>"; };
+		215E27611D294EA9002EC537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215E273A1D294EA8002EC537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215E274D1D294EA9002EC537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215E27581D294EA9002EC537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215E27341D294EA8002EC537 = {
+			isa = PBXGroup;
+			children = (
+				215E273F1D294EA8002EC537 /* WaveProfile */,
+				215E27531D294EA9002EC537 /* WaveProfileTests */,
+				215E275E1D294EA9002EC537 /* WaveProfileUITests */,
+				215E273E1D294EA8002EC537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		215E273E1D294EA8002EC537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215E273D1D294EA8002EC537 /* WaveProfile.app */,
+				215E27501D294EA9002EC537 /* WaveProfileTests.xctest */,
+				215E275B1D294EA9002EC537 /* WaveProfileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215E273F1D294EA8002EC537 /* WaveProfile */ = {
+			isa = PBXGroup;
+			children = (
+				215E27401D294EA8002EC537 /* AppDelegate.swift */,
+				215E27421D294EA8002EC537 /* GameViewController.swift */,
+				215E27441D294EA8002EC537 /* Shaders.metal */,
+				215E27461D294EA9002EC537 /* Assets.xcassets */,
+				215E27481D294EA9002EC537 /* MainMenu.xib */,
+				215E274B1D294EA9002EC537 /* Info.plist */,
+			);
+			path = WaveProfile;
+			sourceTree = "<group>";
+		};
+		215E27531D294EA9002EC537 /* WaveProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				215E27541D294EA9002EC537 /* WaveProfileTests.swift */,
+				215E27561D294EA9002EC537 /* Info.plist */,
+			);
+			path = WaveProfileTests;
+			sourceTree = "<group>";
+		};
+		215E275E1D294EA9002EC537 /* WaveProfileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				215E275F1D294EA9002EC537 /* WaveProfileUITests.swift */,
+				215E27611D294EA9002EC537 /* Info.plist */,
+			);
+			path = WaveProfileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215E273C1D294EA8002EC537 /* WaveProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215E27641D294EA9002EC537 /* Build configuration list for PBXNativeTarget "WaveProfile" */;
+			buildPhases = (
+				215E27391D294EA8002EC537 /* Sources */,
+				215E273A1D294EA8002EC537 /* Frameworks */,
+				215E273B1D294EA8002EC537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveProfile;
+			productName = WaveProfile;
+			productReference = 215E273D1D294EA8002EC537 /* WaveProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215E274F1D294EA9002EC537 /* WaveProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215E27671D294EA9002EC537 /* Build configuration list for PBXNativeTarget "WaveProfileTests" */;
+			buildPhases = (
+				215E274C1D294EA9002EC537 /* Sources */,
+				215E274D1D294EA9002EC537 /* Frameworks */,
+				215E274E1D294EA9002EC537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215E27521D294EA9002EC537 /* PBXTargetDependency */,
+			);
+			name = WaveProfileTests;
+			productName = WaveProfileTests;
+			productReference = 215E27501D294EA9002EC537 /* WaveProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		215E275A1D294EA9002EC537 /* WaveProfileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215E276A1D294EA9002EC537 /* Build configuration list for PBXNativeTarget "WaveProfileUITests" */;
+			buildPhases = (
+				215E27571D294EA9002EC537 /* Sources */,
+				215E27581D294EA9002EC537 /* Frameworks */,
+				215E27591D294EA9002EC537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215E275D1D294EA9002EC537 /* PBXTargetDependency */,
+			);
+			name = WaveProfileUITests;
+			productName = WaveProfileUITests;
+			productReference = 215E275B1D294EA9002EC537 /* WaveProfileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215E27351D294EA8002EC537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Simon Lethbridge";
+				TargetAttributes = {
+					215E273C1D294EA8002EC537 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					215E274F1D294EA9002EC537 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 215E273C1D294EA8002EC537;
+					};
+					215E275A1D294EA9002EC537 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 215E273C1D294EA8002EC537;
+					};
+				};
+			};
+			buildConfigurationList = 215E27381D294EA8002EC537 /* Build configuration list for PBXProject "WaveProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215E27341D294EA8002EC537;
+			productRefGroup = 215E273E1D294EA8002EC537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215E273C1D294EA8002EC537 /* WaveProfile */,
+				215E274F1D294EA9002EC537 /* WaveProfileTests */,
+				215E275A1D294EA9002EC537 /* WaveProfileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215E273B1D294EA8002EC537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215E27471D294EA9002EC537 /* Assets.xcassets in Resources */,
+				215E274A1D294EA9002EC537 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215E274E1D294EA9002EC537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215E27591D294EA9002EC537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215E27391D294EA8002EC537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215E27451D294EA8002EC537 /* Shaders.metal in Sources */,
+				215E27431D294EA8002EC537 /* GameViewController.swift in Sources */,
+				215E27411D294EA8002EC537 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215E274C1D294EA9002EC537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215E27551D294EA9002EC537 /* WaveProfileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215E27571D294EA9002EC537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215E27601D294EA9002EC537 /* WaveProfileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215E27521D294EA9002EC537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215E273C1D294EA8002EC537 /* WaveProfile */;
+			targetProxy = 215E27511D294EA9002EC537 /* PBXContainerItemProxy */;
+		};
+		215E275D1D294EA9002EC537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215E273C1D294EA8002EC537 /* WaveProfile */;
+			targetProxy = 215E275C1D294EA9002EC537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		215E27481D294EA9002EC537 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215E27491D294EA9002EC537 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215E27621D294EA9002EC537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215E27631D294EA9002EC537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		215E27651D294EA9002EC537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WaveProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJSL.WaveProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		215E27661D294EA9002EC537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WaveProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJSL.WaveProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		215E27681D294EA9002EC537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = WaveProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJSL.WaveProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveProfile.app/Contents/MacOS/WaveProfile";
+			};
+			name = Debug;
+		};
+		215E27691D294EA9002EC537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WaveProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJSL.WaveProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveProfile.app/Contents/MacOS/WaveProfile";
+			};
+			name = Release;
+		};
+		215E276B1D294EA9002EC537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = WaveProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJSL.WaveProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveProfile;
+			};
+			name = Debug;
+		};
+		215E276C1D294EA9002EC537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WaveProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJSL.WaveProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveProfile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215E27381D294EA8002EC537 /* Build configuration list for PBXProject "WaveProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215E27621D294EA9002EC537 /* Debug */,
+				215E27631D294EA9002EC537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215E27641D294EA9002EC537 /* Build configuration list for PBXNativeTarget "WaveProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215E27651D294EA9002EC537 /* Debug */,
+				215E27661D294EA9002EC537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215E27671D294EA9002EC537 /* Build configuration list for PBXNativeTarget "WaveProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215E27681D294EA9002EC537 /* Debug */,
+				215E27691D294EA9002EC537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215E276A1D294EA9002EC537 /* Build configuration list for PBXNativeTarget "WaveProfileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215E276B1D294EA9002EC537 /* Debug */,
+				215E276C1D294EA9002EC537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215E27351D294EA8002EC537 /* Project object */;
+}
